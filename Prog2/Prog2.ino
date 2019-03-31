@@ -33,7 +33,7 @@ void setup()
 void loop()
 {
   buttonEstat = digitalRead(buttonPin);
-  if (buttonEstat == HIGH)
+  if (buttonEstat == LOW)
   { 
     num = num + 1;                 // incrementar el número a mostrar
     if (num == 16)       // quan ja ha ensenyat el 15 tornar al 0  
